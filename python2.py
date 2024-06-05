@@ -22,7 +22,7 @@ def aPlusB(lines):
     #
     # We use these tools in our coding too, but in our interviews, we also don't
     # allow using these, and want to see how we do without them.
-    #
+    pass
 
 if __name__ == '__main__':
     fptr = sys.stdout
