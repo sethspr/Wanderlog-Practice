@@ -30,32 +30,15 @@ function readLine() {
  */
 
 function aPlusB(lines) {
-  console.log(lines);
-  debugger;
+    // # Write your code here
 
-  let listOfIntegers = lines.map(function (x) {
-    // Split
-    let splitElement = x.split(" "); // ["5", "5"]
-    // Convert to Integer
-    let integerList = [];
-    for (let i = 0; i < splitElement.length; i++) {
-      integerList.push(parseInt(splitElement[i]));
-    }
-    return integerList;
-  }); // [[5,5], [1, 1]]
-
-  // Added Integers
-  let addedListOfIntegers = listOfIntegers.flatMap(function (x) {
-    let elementSum = x.reduce((a, b) => a + b, 0);
-    return elementSum;
-  }); // [10, 2, 12]
-
-  // Return the Array
-  let stringListOfIntegers = addedListOfIntegers.map(function (x) {
-    return x.toString();
-  });
-  debugger;
-  return stringListOfIntegers;
+    // #
+    // # WARNING: Please do not use GitHub Copilot, ChatGPT, or other AI assistants
+    // #          when solving this problem!
+    // #
+    // # We use these tools in our coding too, but in our interviews, we also don't
+    // # allow using these, and want to see how we do without them.
+    // #
 }
 
 function main() {
